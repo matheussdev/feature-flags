@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/Hapvida.Digital.Beneficiary.Admin.Api.props" />
+</Project>

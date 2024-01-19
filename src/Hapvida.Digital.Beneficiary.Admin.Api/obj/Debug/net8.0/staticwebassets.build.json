@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LVnoOAgSvPVd5GF01WU3xmpgW2q0OuFuWuCyeMLmSHk=",
+  "Source": "Hapvida.Digital.Beneficiary.Admin.Api",
+  "BasePath": "_content/Hapvida.Digital.Beneficiary.Admin.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
