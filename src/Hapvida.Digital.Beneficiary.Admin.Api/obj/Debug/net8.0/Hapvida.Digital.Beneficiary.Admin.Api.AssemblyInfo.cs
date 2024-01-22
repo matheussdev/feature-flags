@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hapvida.Digital.Beneficiary.Admin.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+daaca9e42c430eb5bb08ed60b613720d35d8178f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hapvida.Digital.Beneficiary.Admin.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hapvida.Digital.Beneficiary.Admin.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

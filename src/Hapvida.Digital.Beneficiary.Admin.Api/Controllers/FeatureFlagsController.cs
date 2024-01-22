@@ -1,7 +1,6 @@
 namespace Hapvida.Digital.Beneficiary.Admin.Api.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.FeatureManagement;
-
 [ApiController]
 [Route("[controller]")]
 public class FeatureFlagsController : ControllerBase
@@ -28,7 +27,7 @@ public class FeatureFlagsController : ControllerBase
     [HttpGet("check-feature")]
     public async Task<IActionResult> CheckFeature()
     {
-        bool featureEnabled = await _featureManager.IsEnabledAsync(".appconfig.featureflag/FLAG_HAPVIDA_TESTE2");
+        bool featureEnabled = await _featureManager.IsEnabledAsync("FLAG_HAPVIDA_TESTE2");
 
         if (featureEnabled)
         {
@@ -45,14 +44,14 @@ public class FeatureFlagsController : ControllerBase
     public async Task<IActionResult> ListFeatures()
     {
         var features = new List<object>();
-
+        Console.WriteLine(_featureManager.GetFeatureNamesAsync());
         await foreach (var feature in _featureManager.GetFeatureNamesAsync())
         {
             bool isEnabled = await _featureManager.IsEnabledAsync(feature);
             features.Add(new
             {
                 Feature = feature,
-                Enabled = isEnabled
+                Enabled = isEnabled,
             });
         }
 

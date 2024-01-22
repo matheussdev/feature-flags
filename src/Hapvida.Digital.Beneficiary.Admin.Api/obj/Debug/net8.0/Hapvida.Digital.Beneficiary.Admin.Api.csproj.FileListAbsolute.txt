@@ -41,3 +41,4 @@
 /Users/matheussantos/matheusdev/profectum/Hapvida.Digital.Beneficiary.Admin.Api/src/Hapvida.Digital.Beneficiary.Admin.Api/bin/Debug/net8.0/Microsoft.FeatureManagement.dll
 /Users/matheussantos/matheusdev/profectum/Hapvida.Digital.Beneficiary.Admin.Api/src/Hapvida.Digital.Beneficiary.Admin.Api/bin/Debug/net8.0/Microsoft.FeatureManagement.AspNetCore.dll
 /Users/matheussantos/matheusdev/profectum/Hapvida.Digital.Beneficiary.Admin.Api/src/Hapvida.Digital.Beneficiary.Admin.Api/bin/Debug/net8.0/System.Memory.Data.dll
+/Users/matheussantos/matheusdev/profectum/Hapvida.Digital.Beneficiary.Admin.Api/src/Hapvida.Digital.Beneficiary.Admin.Api/obj/Debug/net8.0/Hapvida.Digital.Beneficiary.Admin.Api.sourcelink.json
